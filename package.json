@@ -9,7 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-concurrent": "^3.0.0",
@@ -24,5 +23,14 @@
   },
   "dependencies": {
     "-": "^0.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayaraSH/sorteador_grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MayaraSH/sorteador_grunt/issues"
+  },
+  "homepage": "https://github.com/MayaraSH/sorteador_grunt#readme",
+  "description": ""
 }

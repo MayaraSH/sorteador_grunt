@@ -17,9 +17,9 @@ h1 {
 }
 
 main {
-    max-width: 960px;
+    max-width: 640px;
     width: 100%;
-    margin: 0 auto; // centralizar na horizontal
+    margin: 0 auto; 
     font-size: 2em;
     text-align: center; 
 }
@@ -60,4 +60,20 @@ input {
         font-size: 3em;
         display: block;
     }
+}
+
+@media screen and (orientation:landscape) and (max-width: 768px) {
+    main {
+    max-width: 480px; 
+    width: 100%;
+    margin: 0 auto; 
+    }  
+}
+
+@media screen and (orientation:portrait) and (max-width: 768px) {
+    main {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto; 
+    }  
 }
